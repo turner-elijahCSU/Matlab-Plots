@@ -1,0 +1,23 @@
+e= linspace(0,10);
+f1 = cos(e);
+f2 = sin(e);
+f3 = e.^2+2*e;
+f4 = log10(e);
+f5 = 3*e*pi
+f6 = e/pi
+
+
+subplot(3, 3, 1)
+plot(e , f1 , 'r', 'linewidth',2)
+xlabel('e')
+ylabel('Cos (e)')
+subplot(3, 3, 2)
+plot(e , f2, 'g', 'linewidth',2)
+subplot(3, 3, 3)
+plot(e, f3, 'm', 'linewidth',2)
+subplot(3, 3, 4)
+plot(e, f4, 'o', 'linewidth',2)
+subplot(3, 3, 5)
+plot(e, f5, 'y', 'linewidth',2)
+subplot(3, 3, f6)
+plot(e, f6, 'g',)
